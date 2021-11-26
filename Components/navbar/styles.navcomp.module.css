@@ -13,42 +13,58 @@
     order: 1;
 }
 
-.logo {
-    cursor: pointer;
-    order: 3;
-    margin-left: 5px;
-}
-
 .nav_options li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: black;
+    color: white;
     text-decoration: none;
     display: inline-block;
-    padding:0 20px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    background-color: gray;
+    margin-right: 10px;
 
 }
 
 .nav_options li a {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav_options li a:hover {
-    color: #0070f3;
+    color: darkslategrey;
 }
 
 .button {
     padding: 5px 25px;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: gray;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 
 .button:hover {
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+.logo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.logo_name {
+    color: black;
+
+}
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.hr {
+    width: 90vw;
 }
 
 /*.nav_options li a:hover {*/

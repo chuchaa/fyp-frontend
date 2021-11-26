@@ -1,0 +1,26 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardInfo ol li {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.cardInfo ol li:hover {
+    color: darkslategrey;
+    cursor: pointer;
+
+}
+
+.cardInfo ol li p {
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.wholeCard {
+    color: darkgreen;
+}

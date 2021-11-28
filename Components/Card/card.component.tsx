@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  Button,
-  CardActions,
-  CardContent,
-  Typography,
-  Card as MaterialCard,
-} from '@mui/material';
+import {CardContent, Typography, Card as MaterialCard} from '@mui/material';
 import styles from './card.module.css';
 
 const Card = () => {

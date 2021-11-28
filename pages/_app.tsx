@@ -8,9 +8,8 @@ function MyApp({Component, pageProps}: AppProps) {
   return (
     <>
       <NavComp />
-      <Card />
-      <FooterComponent />
       <Component {...pageProps} />
+      <FooterComponent />
     </>
   );
 }

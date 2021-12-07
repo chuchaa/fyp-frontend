@@ -1,0 +1,82 @@
+.mainContainer {
+    width: 500px;
+    height: 350px;
+    margin-left: 550px;
+    margin-bottom: 3px;
+
+}
+
+.wholeCard {
+    color: green;
+    background: azure;
+    display: grid;
+    height: 350px;
+}
+
+.button {
+    padding: 15px 2px;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+
+}
+
+.button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.pP {
+    color: firebrick;
+    margin-left: 5px;
+}
+
+.pP a {
+    color: #0070f3;
+}
+
+.pP a:hover {
+    color: blue;
+    font-size: 16px;
+}
+
+.hr {
+    width: 30vw;
+}
+
+@media (max-width: 1028px) {
+    .mainContainer {
+        margin-left: 200px;
+    }
+
+    .hr {
+        width: 45vw;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        margin-left: 70px;
+    }
+
+    .hr {
+        width: 70vw;
+    }
+}
+
+
+/*@media (max-width: 78px) {*/
+/*    .mainContainer {*/
+/*        margin-left: 70px;*/
+/*        margin-bottom: 200px;*/
+/*    }*/
+
+/*    .hr {*/
+/*        width: 20vw;*/
+/*    }*/
+/*}*/

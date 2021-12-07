@@ -6,7 +6,7 @@
     /*justify-content: end;*/
     align-items: start;
     align-content: end;
-    background: firebrick;
+    background: #214532;
     width: 100%;
     grid-template-columns: 2fr 1fr 1fr;
 
@@ -25,7 +25,6 @@
     position: absolute;
     bottom: -4.5px;
     left: 0;
-    /*bottom:0;*/
     width: 0;
     height: 2px;
     background: #fafafa;
@@ -56,7 +55,10 @@
 
 .secFollowUs li a:hover {
     color: mediumslateblue;
+    font-weight: 600;
+
 }
+
 
 .secNewsletter {
     margin-bottom: 10px;
@@ -105,7 +107,7 @@
         /*justify-content: end;*/
         align-items: start;
         align-content: end;
-        background: firebrick;
+        background: #214532;
         width: 100%;
         grid-template-columns:2fr 1fr;
 
@@ -121,7 +123,7 @@
         /*justify-content: end;*/
         align-items: start;
         align-content: end;
-        background: firebrick;
+        background: #214532;
         width: 100%;
         grid-template-columns:1fr;
 

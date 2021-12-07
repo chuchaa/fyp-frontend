@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles.navcomp.module.css';
+import styles from './navcomp.module.css';
 import {Avatar} from '@mui/material';
 
 const NavComp = () => {

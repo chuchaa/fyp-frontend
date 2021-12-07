@@ -1,0 +1,30 @@
+.mainContainer {
+    display: flex;
+    padding: 10px;
+
+}
+
+.cardInfo {
+    margin-right: 5px;
+    display: grid;
+    grid-gap: 10px;
+
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 70px;
+}
+
+
+
+.cardInfo ol li p {
+    font-size: 5px;
+    font-weight: lighter;
+
+}
+
+.wholeCard {
+    color: darkgreen;
+    background:lightgoldenrodyellow;
+}

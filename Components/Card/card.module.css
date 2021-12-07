@@ -1,6 +1,7 @@
 .mainContainer {
     display: flex;
     flex-direction: row;
+    padding: 3px;
 }
 
 .cardInfo ol li {
@@ -10,7 +11,7 @@
 }
 
 .cardInfo ol li:hover {
-    color: darkslategrey;
+    color: mediumslateblue;
     cursor: pointer;
 
 }
@@ -20,7 +21,21 @@
     font-weight: lighter;
 
 }
+.headings {
+    font-size: 40px !important;
+    text-align: center !important;
+}
 
 .wholeCard {
-    color: darkgreen;
+    color: #f2f2f2;
+}
+
+@media (max-width: 1500px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        width: 0;
+        gap: 12px;
+    }
 }

@@ -22,7 +22,7 @@
     display: inline-block;
     padding: 5px 15px;
     border-radius: 4px;
-    background-color: gray;
+    background-color: #214532;
     margin-right: 10px;
 
 }
@@ -32,12 +32,13 @@
 }
 
 .nav_options li a:hover {
-    color: darkslategrey;
+    color: mediumslateblue;
 }
 
 .button {
     padding: 5px 25px;
-    background-color: gray;
+    background-color: #214532;
+    color: #fafafa;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -45,7 +46,7 @@
 }
 
 .button:hover {
-    background-color: rgba(0, 136, 169, 0.8);
+    background-color: mediumslateblue;
 }
 
 .logo {
@@ -58,6 +59,7 @@
     color: black;
 
 }
+
 .headerContainer {
     display: flex;
     flex-direction: column;
@@ -67,6 +69,14 @@
     width: 90vw;
 }
 
-/*.nav_options li a:hover {*/
-/*    color: darkblue;*/
-/*}*/
+@media (max-width: 1415px) {
+    .nav_options {
+        list-style: none;
+        order: 1;
+        display: grid;
+        grid-template-rows: 25px;
+        grid-row-gap: 5px;
+        padding: 0;
+    }
+
+}

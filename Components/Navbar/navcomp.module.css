@@ -5,7 +5,7 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 5px;
 }
 
 .nav_options {
@@ -51,8 +51,8 @@
 
 .logo {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .logo_name {

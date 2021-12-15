@@ -7,6 +7,7 @@
 .cardInfo ol li {
     font-size: 25px;
     font-weight: bold;
+    width: 160px;
 
 }
 
@@ -19,6 +20,7 @@
 .cardInfo ol li p {
     font-size: 15px;
     font-weight: lighter;
+
 
 }
 .headings {

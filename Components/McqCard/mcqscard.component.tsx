@@ -7,7 +7,7 @@ import Select, {SelectChangeEvent} from '@mui/material/Select';
 import {
   Card as MaterialCard,
   CardContent,
-  Input,
+  Divider,
   TextField,
   Typography,
 } from '@mui/material';
@@ -30,6 +30,8 @@ export default function BasicSelect() {
           ml: 25,
           background: 'lightgoldenrodyellow',
         }}>
+        <h1>Question Bank</h1>
+        <Divider />
         <Box>
           <FormControl sx={{m: 1, minWidth: 150, ml: 70}}>
             <InputLabel id="demo-simple-select-label">Question Type</InputLabel>
@@ -46,7 +48,7 @@ export default function BasicSelect() {
           </FormControl>
         </Box>
         <CardContent className={styles.content}>
-          <Typography sx={{fontSize: 25, mb: 0}} gutterBottom>
+          <Typography sx={{fontSize: 25, mb: 0, display: 'grid'}} gutterBottom>
             <TextField
               sx={{width: 700}}
               id="standard-basic"

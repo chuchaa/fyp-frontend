@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Shippori+Antique&display=swap');
+
+
+.Divider {
+    height: 1px;
+}
+.MuiDrawer-paper{
+    position: relative;
+    white-space: nowrap;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}

@@ -1,0 +1,43 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+
+.cardInfo ol li {
+    font-size: 25px;
+    font-weight: bold;
+    width: 160px;
+
+}
+
+.cardInfo ol li:hover {
+    color: mediumslateblue;
+    cursor: pointer;
+
+}
+
+.cardInfo ol li p {
+    font-size: 15px;
+    font-weight: lighter;
+
+
+}
+.headings {
+    font-size: 40px !important;
+    text-align: center !important;
+}
+
+.wholeCard {
+    color: #f2f2f2;
+}
+
+@media (max-width: 1500px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        width: 0;
+        gap: 12px;
+    }
+}

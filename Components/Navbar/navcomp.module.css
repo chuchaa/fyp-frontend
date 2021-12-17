@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&family=Shippori+Antique&display=swap');
+
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.nav_options {
+    list-style: none;
+    order: 1;
+}
+
+.nav_options li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 4px;
+    background-color: #214532;
+    margin-right: 10px;
+
+}
+
+.nav_options li a {
+    transition: all 0.2s ease-in-out;
+}
+
+.nav_options li a:hover {
+    color: mediumslateblue;
+}
+
+.button {
+    padding: 5px 25px;
+    background-color: #214532;
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.button:hover {
+    background-color: mediumslateblue;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.logo_name {
+    color: black;
+
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.hr {
+    width: 90vw;
+}
+
+@media (max-width: 1415px) {
+    .nav_options {
+        list-style: none;
+        order: 1;
+        display: grid;
+        grid-template-rows: 25px;
+        grid-row-gap: 5px;
+        padding: 0;
+    }
+
+}

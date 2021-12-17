@@ -1,0 +1,138 @@
+.footerBody{
+    min-height: calc(100vh - 137.6px - 247.5px);
+}
+.mainContainer {
+    position: sticky;
+    top: 100%;
+}
+.firstContainer {
+    display: grid;
+    grid-gap: 20px;
+    padding: 5px 50px;
+    /*justify-content: end;*/
+    align-items: start;
+    align-content: end;
+    background: #214532;
+    width: 100%;
+    grid-template-columns: 2fr 1fr 1fr;
+
+}
+
+
+.firstContainer div h2 {
+    position: relative;
+    color: #fafafa;
+    font-weight: 600;
+    margin-bottom: 1px;
+    width: fit-content;
+}
+
+.firstContainer div h2::after {
+    content: "";
+    position: absolute;
+    bottom: -4.5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fafafa;
+    transition: 0.3s;
+
+}
+
+.firstContainer div h2:hover::after {
+    width: 120px;
+
+}
+
+.firstContainer div p {
+    color: #fafafa;
+}
+
+.secFollowUs ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.secFollowUs li a {
+    color: #fafafa;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.secFollowUs li a:hover {
+    color: mediumslateblue;
+    font-weight: 600;
+
+}
+
+
+.secNewsletter {
+    margin-bottom: 10px;
+
+}
+
+.secNewsletter input {
+    background-color: #fafafa;
+    border: 1px solid gray;
+    width: 65%;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.secNewsletter button {
+    color: #fafafa;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid gray;
+    padding: 0.3rem;
+    cursor: pointer;
+    transition: all 0.2ms ease-in;
+}
+
+.secNewsletter button:hover {
+    background-color: mediumslateblue;
+
+}
+
+.copyrightText {
+    width: 100%;
+    color: #fafafa;
+    text-align: center;
+}
+
+.hr {
+    width: 90vw;
+
+}
+
+@media (max-width: 1028px) {
+    .firstContainer {
+        display: grid;
+        grid-gap: 20px;
+        padding: 5px 50px;
+        /*justify-content: end;*/
+        align-items: start;
+        align-content: end;
+        background: #214532;
+        width: 100%;
+        grid-template-columns:2fr 1fr;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .firstContainer {
+        display: grid;
+        grid-gap: 20px;
+        padding: 5px 50px;
+        /*justify-content: end;*/
+        align-items: start;
+        align-content: end;
+        background: #214532;
+        width: 100%;
+        grid-template-columns:1fr;
+
+    }
+}

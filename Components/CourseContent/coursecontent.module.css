@@ -1,0 +1,14 @@
+.mainCon {
+    display: grid;
+    position: relative;
+    margin: 10px;
+    margin-left: 200px;
+}
+
+.mainCon h2 {
+    margin: 10px;
+}
+.mainCon button {
+    margin-left: 1000px;
+    bottom: 5px;
+}

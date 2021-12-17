@@ -1,0 +1,35 @@
+.materialCard {
+    width: 80%;
+}
+
+.materialCard h3 {
+    margin: 10px;
+}
+
+.materialCard .mainCardContent {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.materialCard .mainCardContent .dropdown {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.mcqContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    margin-top: 40px;
+}
+
+.question button {
+    margin-left: 20px;
+}
